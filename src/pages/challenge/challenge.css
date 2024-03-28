@@ -1,0 +1,76 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+  margin: 0 auto;
+  background: linear-gradient(90deg, rgb(5, 241, 215) 0%, rgba(0, 157, 140) 35%, rgba(26, 99, 109) 100%);
+  min-height: 100vh;
+}
+
+.challenge {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-Container,
+.right-Container {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-Wrapper {
+  width: 30em;
+  height: 30em;
+  border-radius: 50%;
+}
+
+.left-Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-Wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.right-Container {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.compninos {
+  width: 1000px;
+}
+
+.learnbottom {
+  color: white;
+  background: #30cfb6;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.vision {
+  display: flex;
+}
+
+.visiontext {
+  color: white;
+}
+
+.mision {
+  display: flex;
+}
+
+.misiontext {
+  color: white;
+}

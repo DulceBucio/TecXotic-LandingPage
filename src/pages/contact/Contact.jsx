@@ -1,10 +1,14 @@
 import './contact.css'
+import nube from "../../images/fondonube.png";
 
 const Contact = () => {
   return (
-    <div>
+    <main>
+      <div className="Contac">
+        <img className="nube" src={nube}></img>
+      </div>
       
-    </div>
+    </main>
   )
 }
 

@@ -6,7 +6,12 @@
   padding: 6rem;
   min-height: 100vh;
   margin: 0 auto;
-  background: linear-gradient(90deg, rgb(5, 241, 215) 0%, rgba(0, 157, 140) 35%, rgba(26, 99, 109) 100%);
+  background: linear-gradient(
+    90deg,
+    rgb(5, 241, 215) 0%,
+    rgba(0, 157, 140) 35%,
+    rgba(26, 99, 109) 100%
+  );
   min-height: 100vh;
 }
 
@@ -17,23 +22,22 @@
 
 .left-Container,
 .right-Container {
-  width: 50%;
+  width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-}
-
-.image-Wrapper {
-  width: 30em;
-  height: 30em;
-  border-radius: 50%;
+  justify-content: center;
 }
 
 .left-Container {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.image-Wrapper {
+  width: 35em;
+  height: 35em;
 }
 
 .image-Wrapper img {
@@ -44,12 +48,10 @@
 }
 
 .right-Container {
+  padding-top: 125px;
   color: white;
   font-size: 1.2rem;
-}
-
-.compninos {
-  width: 1000px;
+  justify-content: center;
 }
 
 .learnbottom {
@@ -57,20 +59,253 @@
   background: #30cfb6;
   padding: 10px 20px;
   border-radius: 5px;
+  width: 150px;
+  height: 40px;
+  font-size: 15;
 }
 
-.vision {
-  display: flex;
-}
-
-.visiontext {
-  color: white;
+.peces-right {
+  padding-top: 500px;
+  width: 500px;
+  padding-left: 5000;
 }
 
 .mision {
   display: flex;
+  padding-top: 50px;
 }
 
-.misiontext {
+.left-ContainerM,
+.right-ContainerM {
+  width: 50%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right-ContainerM {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-WrapperM img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 100px;
+  border: 5px solid;
+}
+
+.image-WrapperM {
+  width: 35em;
+  height: 15em;
+}
+
+.left-ContainerM {
+  padding-top: 25px;
+  padding-right: 20px;
   color: white;
+  font-size: 1.2rem;
+  justify-content: center;
+}
+
+.vision {
+  display: flex;
+  padding-top: 50px;
+}
+
+.left-ContainerV,
+.right-ContainerV {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left-ContainerV {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-WrapperV img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 100px;
+  border: 5px solid;
+}
+
+.image-WrapperV {
+  width: 35em;
+  height: 15em;
+}
+
+.peces-left {
+  padding-top: 200px;
+}
+
+.right-ContainerV {
+  padding-top: 60px;
+  padding-left: 40px;
+  color: white;
+  font-size: 1.2rem;
+  justify-content: center;
+}
+
+.misiontasks {
+  padding-top: 85px;
+  /*background: #113544;
+  background-image: url('../../images/WaveDivision.png');
+  background-size: 1400px 1300px;
+  background-position: center;
+  background-repeat: no-repeat;*/
+} 
+
+.tasktxt {
+  color: white;
+  text-align: center;
+}
+
+.imgstask {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.task1 {
+  width: 15em;
+  height: 15em;
+  border-radius: 50%;
+  border: 3px solid;
+}
+
+.task1txt {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.task2 {
+  width: 15em;
+  height: 15em;
+  border-radius: 50%;
+  border: 3px solid;
+}
+
+.task2txt {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.task3 {
+  width: 15em;
+  height: 15em;
+  border-radius: 50%;
+  border: 3px solid;
+}
+
+.task3txt {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.task4 {
+  width: 15em;
+  height: 15em;
+  border-radius: 50%;
+  border: 3px solid;
+}
+
+.task4txt {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.info {
+  padding-top: 200px;
+}
+
+.infotitle {
+  text-align: center;
+}
+
+.color {
+  color: #05f1d7;
+}
+
+.infodatos,
+.inforight {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.infodatos {
+  padding-top: 25px;
+  display: flex;
+  flex-direction: row;
+}
+
+.infotxt {
+  font-size: 1.2rem;
+  padding-right: 90px;
+  padding-top: 60px;
+}
+
+.infodatos {
+    color: white;
+    font-size: 1.2rem;
+    justify-content: center;
+    display: flex;
+}
+
+.inforight {
+    justify-content: center;
+    align-items: center;
+}
+
+.info1{
+    display: flex;
+}
+
+.infoimg1{
+    width: 100px;
+    height: 100px;
+}
+
+.infotxt1{
+    font-size: 0.75rem;
+    padding-top: 50px;
+}
+
+.info2{
+    display: flex;
+}
+
+.infoimg2{
+    width: 100px;
+    height: 100px;
+}
+
+.infotxt2{
+    font-size: 0.75rem;
+    padding-top:50px;
+}
+
+.info3{
+    display: flex;
+}
+
+.infoimg3{
+    width: 100px;
+    height: 100px;
+}
+
+.infotxt3{
+    font-size: 0.75rem;
+    padding-top: 40px;
 }

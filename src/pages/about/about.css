@@ -1,0 +1,170 @@
+section{
+    width:100%;
+    display:grid;
+    place-items: center;
+    position:relative;
+}
+
+.intro_container{
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    padding: 110px 70px;
+}
+
+.container_bubbles{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    padding: 100px 0;
+    gap: 40px 60px;
+}
+
+.quote_container h1{
+    font-weight: 700;
+    font-style: italic;
+    color: white;
+    text-align: center;
+}
+.drop{
+    position:relative;
+    width:350px;
+    height:350px;
+    background-color: rgba(255,255,255,0.2);
+    box-shadow: inset 20px 20px 20px rgba(14, 35, 48, 0.1), 
+    25px 35px 20px rgba(14,35,48,0.05), 25px 30px 30px rgba(14,35,48,0.3), 
+    inset -20px -20px 25px rgba(255,255,255,0.1);
+    transition:0.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+}
+.drop:nth-child(1){
+    border-radius: 44% 56% 44% 56% / 48% 46% 54% 52% ;
+}
+.drop:nth-child(2){
+    border-radius: 49% 51% 61% 39% / 41% 56% 44% 59% ;
+}
+.drop:nth-child(3){
+    border-radius: 49% 51% 40% 60% / 52% 56% 44% 48% ;
+}
+.drop:hover{
+    border-radius: 50%;
+}
+.drop::before{
+    content:" ";
+    position: absolute;
+    top:50px;
+    left:85px;
+    width:35px;
+    height:35px;
+    background:rgba(255,255,255,0.08);
+    border-radius: 50%;
+    opacity: 0.9;
+}
+.drop::after{
+    content:" ";
+    position: absolute;
+    top:90px;
+    left:110px;
+    width:15px;
+    height:15px;
+    background:rgba(255,255,255,0.08);
+    border-radius: 50%;
+    opacity: 0.9;
+}
+
+.valores {
+    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px;
+    gap: 15px;
+}
+.valores h2{
+    color:white;
+}
+.valores p{
+    font-size:14px ;
+}
+
+.container_pic{
+   mask-image:linear-gradient(rgb(0,57,77),transparent);
+   mask-repeat: no-repeat;
+   mask-size: contain;
+
+}
+.container_pic img{
+   mask-image: url(../../images/wave_mask.svg);
+   mask-composite:exclude;
+   mask-repeat: no-repeat;
+   mask-size: contain;
+
+}
+
+.container_history{
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    padding:0;
+}
+
+.historia{
+    padding:10rem;
+    padding-top: 0;
+    line-height: 1.7;
+    text-align: left;
+}
+.historia h2{
+    color:white;
+    font-size: 45px;
+    font-style: italic;
+    padding-bottom: 2rem;
+    letter-spacing: 5px;
+}
+.historia p{
+    font-size:22px ;
+    font-weight: 300;
+}
+
+#img{
+    position: relative;
+    width: 100%;
+    height: 35rem;
+    overflow: hidden;
+}
+.meaning_container{
+    padding:5rem 5rem;
+    width: 100vw;
+    background-color: var(--deep-marine);
+    
+}
+.meaning_container img{
+    float:left;
+    padding-left:3rem;
+    max-width: 300px;
+}
+.text_right{
+    text-align:right;
+    padding-left: 24rem ;
+}
+
+.text_right h1{
+    color:var(--menta);
+    font-size: 40px;
+}
+.text_right h2{
+    color:white;
+    font-size: 25px;
+    font-weight: 280;
+    padding-bottom: 2rem;
+    letter-spacing: 7px;
+}
+.text_right p{
+    font-size:16px ;
+    font-weight: 300;
+}
+

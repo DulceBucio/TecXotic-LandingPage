@@ -2,8 +2,9 @@ import './about.css'
 import Fundadores from '../../images/fundadores.jpeg'
 import logoCompleto from '../../images/logo_img.png'
 import waveLine from '../../images/wave_line.png'
-import Medusas from '../../images/medusas.jpg'
 import MultiSlider from '../../components/MultiSlider'
+import Number from '../../images/6.png'
+import MultiSlider2 from '../../components/AwardsSlider'
 
 const About = () => {
   return (
@@ -79,7 +80,6 @@ const About = () => {
         <MultiSlider />
       </div>
       <div className='impact-container'>
-          
           <div className='cifras-container'>
             <div className='cifras'>
               <h1>9</h1>
@@ -97,6 +97,26 @@ const About = () => {
               <p><font color="#05F1D7">workshops</font> of STEM for young minds</p>
             </div>
           </div>
+        </div>
+        <div className='awards-container'>
+          <div className='title-awards'>
+            <div className='content-left'>
+                <div className='number'>
+                  <img src={Number}></img>
+                </div>
+                <div className='text-content-left'>
+                  <p>YEARS OF</p>
+                  <h1>Awards</h1>
+                </div>
+            </div>
+            <div className='text-content-right'>
+              <p>We have won 6 different awards 
+                throughout the years, being recognized 
+                for our team spirit, safety consciousness, 
+                design and communication skills.</p>
+            </div>
+          </div>
+          <MultiSlider2 />
         </div>
     </section>
   )

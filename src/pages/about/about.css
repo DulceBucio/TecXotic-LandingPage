@@ -242,3 +242,60 @@ section{
     font-size: 70px;
 } 
 
+.awards-container{
+    padding:5rem 0 10rem 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+}
+
+.title-awards{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 5rem;
+}
+
+.content-left{
+    display:flex;
+    align-items: left;
+    justify-content: left;
+    flex-direction: row;
+}
+
+.number{
+    height:150px;
+    width: 150px;
+    float:left;
+
+}
+
+.text-content-left{
+    margin-top: 6rem;
+    line-height: 1.2;
+}
+
+.text-content-left p{
+    margin-left: 2rem;
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+
+.text-content-left h1{
+    margin-left: 1rem;
+    font-size: 65px;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+
+.text-content-right p{
+    margin-top: 6rem;
+    font-size: 25px;
+    margin-left: 10rem;
+    width:60%;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+

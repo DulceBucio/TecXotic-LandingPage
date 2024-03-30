@@ -3,10 +3,11 @@ import Fundadores from '../../images/fundadores.jpeg'
 import logoCompleto from '../../images/logo_img.png'
 import waveLine from '../../images/wave_line.png'
 import Medusas from '../../images/medusas.jpg'
+import MultiSlider from '../../components/MultiSlider'
 
 const About = () => {
   return (
-    <section>
+    <section className='about-container'>
       <div className='intro_container'>
       <div className='quote_container'>
         <h1>Who <font color="#05F1D7">cares</font>, always <font color="#05F1D7">wins</font></h1>
@@ -60,7 +61,9 @@ const About = () => {
         </div>
       </div>
       <div className='meaning_container'> 
-        <img src={logoCompleto}></img>
+        <div className='meaning_pic'>
+          <img src={logoCompleto}></img>
+        </div>
         <div className='text_right'>
           <h1>Origin of the word</h1>
           <h2>[Tec-xo-tic]</h2>
@@ -71,11 +74,30 @@ const About = () => {
                 the place where our ROV carry out its missions. </p>
         </div>
       </div>
-      <div> 
+      <div className='carousel_container'> 
         <h1>Meet the minds shaping an industry</h1>
-        //Aqui va lo del carousel/card slider
+        <MultiSlider />
       </div>
-
+      <div className='impact-container'>
+          
+          <div className='cifras-container'>
+            <div className='cifras'>
+              <h1>9</h1>
+              <img src={waveLine}></img>
+              <p><font color="#05F1D7">years</font> of making an impact</p>
+            </div>
+            <div className='cifras'>
+              <h1>6</h1>
+              <img src={waveLine}></img>
+              <p><font color="#05F1D7">times</font> being an international winner</p>
+            </div>
+            <div className='cifras'>
+              <h1>20</h1>
+              <img src={waveLine}></img>
+              <p><font color="#05F1D7">workshops</font> of STEM for young minds</p>
+            </div>
+          </div>
+        </div>
     </section>
   )
 }

@@ -9,7 +9,7 @@ section{
     position:relative;
     display:flex;
     flex-direction: column;
-    padding: 110px 70px;
+    padding: 4rem;
 }
 
 .container_bubbles{
@@ -17,7 +17,7 @@ section{
     justify-content: center;
     align-items: center;
     flex-wrap:wrap;
-    padding: 100px 0;
+    padding-bottom: 100px;
     gap: 40px 60px;
 }
 
@@ -25,6 +25,8 @@ section{
     font-weight: 700;
     font-style: italic;
     color: white;
+    padding-top: 130px;
+    margin-bottom: 80px;
     text-align: center;
 }
 .drop{
@@ -113,7 +115,7 @@ section{
 }
 
 .historia{
-    padding:10rem;
+    margin:0 14rem 10rem ;
     padding-top: 0;
     line-height: 1.7;
     text-align: left;
@@ -132,24 +134,31 @@ section{
 
 #img{
     position: relative;
-    width: 100%;
-    height: 35rem;
     overflow: hidden;
+    height: 600px;
+    align-items: center;
 }
 .meaning_container{
-    padding:5rem 5rem;
-    width: 100vw;
+    padding: 4rem;
     background-color: var(--deep-marine);
-    
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
 }
-.meaning_container img{
-    float:left;
-    padding-left:3rem;
-    max-width: 300px;
+.meaning_pic{
+    height: 300px;
+    width:300px;
 }
+.meaning_pic img{
+    height: 100%;
+    width:100%;
+    object-fit: contain;
+}
+
 .text_right{
-    text-align:right;
-    padding-left: 24rem ;
+    margin-left: 5rem;
+    width:50%;
 }
 
 .text_right h1{
@@ -164,7 +173,72 @@ section{
     letter-spacing: 7px;
 }
 .text_right p{
-    font-size:16px ;
+    font-size:18px ;
     font-weight: 300;
 }
+
+.carousel_container{
+    padding:5rem 0 10rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel_container h1{
+    margin-bottom: 5rem;
+}
+
+.impact-container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &::before{
+    content:"";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../../images/medusas.jpg');
+    background-size: cover;
+    background-position: top center;
+    opacity: 0.6;
+  }
+}
+
+.cifras-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    width: 100vw;
+    gap: 30px 50px;
+}
+
+.cifras {
+    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width:350px;
+    height:350px;
+    padding: 40px;
+    gap: 15px;
+}
+.cifras img{
+    width: 100%;
+}
+
+.cifras p{
+    font-weight: 600;
+    font-size: 28px;
+}
+.cifras h1{
+    font-size: 70px;
+} 
 

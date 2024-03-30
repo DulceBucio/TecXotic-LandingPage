@@ -1,9 +1,10 @@
 import './challenge.css'
 
 const Challenge = () => {
+  
   return (
-    <div>
-    </div>
+    <>
+    </>
   )
 }
 

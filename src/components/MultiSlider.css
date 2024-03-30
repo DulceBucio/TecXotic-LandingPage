@@ -1,0 +1,86 @@
+/*.carousel{
+    width:100vw;
+    height: 100vh;
+    background-color: transparent !important;
+}
+.box{
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+}
+.profile-pic{
+    height:400px;
+    width: 400px;
+    object-fit: fill;
+}
+
+.info{
+    text-align: center;
+    justify-content: center;
+}
+
+.info h2{
+    text-align: center;
+}
+
+.info h3{
+    font-weight: 300;
+    font-size: 22px;
+}
+
+.slick-slide div{
+    margin:0 1rem;
+}
+
+.slick-dots li.slick-active button:before{
+    color:var(--menta) !important;
+}
+
+.slick-dots li button:before{
+    color:white !important;
+    top:2rem !important;
+}*/
+.carousel{
+   width: 100vw;
+   max-width:1080px;
+   margin-inline:auto;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info{
+    text-align: center;
+    justify-content: center;
+}
+
+.info h2{
+    font-size: 28px;
+    text-align: center;
+}
+
+.info h3{
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.slick-slide div{
+    margin:0 1rem;
+}
+
+.slick-dots li.slick-active button:before{
+    color:var(--menta) !important;
+}
+
+.slick-dots li button:before{
+    color:white !important;
+    top:2rem !important;
+}
+
+.impact-container{
+  overflow: hidden;
+  position: relative;
+}

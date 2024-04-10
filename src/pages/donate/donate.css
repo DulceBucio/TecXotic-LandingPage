@@ -1,0 +1,34 @@
+.main{
+    padding:5rem;
+}
+.invite-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap:5rem;
+}
+
+.forms{
+    border-radius: 20px;
+    background-color: var(--gris-claro);
+    height: 700px;
+    width: 500px;
+}
+.invite-text{
+    vertical-align: middle;
+    display: flex;
+    flex-direction:column; 
+    justify-content: left;
+    width:600px;
+}
+.invite-text h1{
+    font-size: 90px;
+    line-height:1.2;
+}
+.invite-text p{
+    font-size: 30px;
+    margin-top: 2rem;
+    font-weight: 300;
+}
+   

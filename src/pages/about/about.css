@@ -1,0 +1,360 @@
+.intro_container{
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    padding: 5rem;
+}
+
+.quote_container h1{
+    font-weight: 700;
+    font-style: italic;
+    color: white;
+    padding-top: 100px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.container_bubbles{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    padding-bottom: 100px;
+    gap: 40px 60px;
+}
+
+
+.drop{
+    position:relative;
+    width:375px;
+    height:375px;
+    background-color: rgba(255,255,255,0.2);
+    box-shadow: inset 20px 20px 20px rgba(14, 35, 48, 0.1), 
+    25px 35px 20px rgba(14,35,48,0.05), 25px 30px 30px rgba(14,35,48,0.3), 
+    inset -20px -20px 25px rgba(255,255,255,0.1);
+    transition:0.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+}
+.drop:nth-child(1){
+    border-radius: 44% 56% 44% 56% / 48% 46% 54% 52% ;
+}
+.drop:nth-child(2){
+    border-radius: 49% 51% 61% 39% / 41% 56% 44% 59% ;
+}
+.drop:nth-child(3){
+    border-radius: 49% 51% 40% 60% / 52% 56% 44% 48% ;
+}
+.drop:hover{
+    border-radius: 50%;
+}
+.drop::before{
+    content:" ";
+    position: absolute;
+    top:50px;
+    left:85px;
+    width:35px;
+    height:35px;
+    background:rgba(255,255,255,0.08);
+    border-radius: 50%;
+    opacity: 0.9;
+}
+.drop::after{
+    content:" ";
+    position: absolute;
+    top:90px;
+    left:110px;
+    width:15px;
+    height:15px;
+    background:rgba(255,255,255,0.08);
+    border-radius: 50%;
+    opacity: 0.9;
+}
+
+.valores {
+    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px;
+    gap: 15px;
+}
+.valores h2{
+    color:white;
+}
+.valores p{
+    font-size:16px ;
+}
+
+.container_pic{
+   mask-image:linear-gradient(rgb(0,57,77),transparent);
+   mask-repeat: no-repeat;
+   mask-size: contain;
+
+}
+.container_pic img{
+   mask-image: url(../../imagenes/wave_mask.svg);
+   mask-composite:exclude;
+   mask-repeat: no-repeat;
+   mask-size: contain;
+
+}
+
+.container_history{
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    padding:0;
+}
+
+.historia{
+    margin:0 14rem 10rem ;
+    padding-top: 0;
+    line-height: 1.7;
+    text-align: left;
+}
+.historia h2{
+    color:white;
+    font-size: 45px;
+    font-style: italic;
+    padding-bottom: 2rem;
+    letter-spacing: 5px;
+}
+.historia p{
+    font-size:22px ;
+    font-weight: 300;
+}
+
+#img{
+    position: relative;
+    overflow: hidden;
+    height: 600px;
+    align-items: center;
+}
+.meaning_container{
+    padding: 5rem;
+    background-color: var(--deep-marine);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.meaning_pic{
+    height: 300px;
+    width:300px;
+}
+.meaning_pic img{
+    height: 100%;
+    width:100%;
+    object-fit: contain;
+}
+
+.text_right{
+    margin-left: 5rem;
+    width:50%;
+}
+
+.text_right h1{
+    color:var(--menta);
+    font-size: 40px;
+}
+.text_right h2{
+    color:white;
+    font-size: 25px;
+    font-weight: 280;
+    padding-bottom: 2rem;
+    letter-spacing: 7px;
+}
+.text_right p{
+    font-size:18px ;
+    font-weight: 300;
+}
+
+.carousel_container{
+    padding:5rem 0 10rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-content{
+    z-index:1;
+}
+
+.fish img{
+    z-index:3;
+}
+
+.fish-right {
+    height:320px;
+    width:320px;
+    object-fit: contain;
+    position:absolute;
+    right:0;
+    margin-top: -30%;
+    animation: fish-right 7s linear infinite;
+}
+
+@keyframes fish-left {
+    0%{
+        transform: translateX(0);
+        opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 1;
+    }
+    100%{
+        transform: translateX(2100px);
+        opacity: 1;
+    }
+}
+
+@keyframes fish-right {
+    0%{
+        transform: translateX(0);
+        opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 1;
+    }
+    100%{
+        transform: translateX(-2100px);
+        opacity: 1;
+    }
+}
+.fish-left {
+    height:200px;
+    width:200px;
+    object-fit: contain;
+    position:absolute;
+    margin-top: 45%;
+    left:0;
+    animation: fish-left 7s linear infinite;
+}
+
+.carousel_container h1{
+    padding-bottom: 5rem;
+}
+
+.impact-container{
+  position: relative;
+
+  &::before{
+    content:" ";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../../imagenes/medusas.jpg');
+    background-size: cover;
+    background-position: top center;
+    opacity: 0.5;
+  }
+}
+
+.quote-impact h2{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-style: italic;
+    padding-top: 5rem;
+    letter-spacing:1px;
+    font-size: 40px;
+}
+
+.cifras-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    width: 100vw;
+    height:55vh;
+    gap: 30px 30px;
+}
+
+.cifras {
+    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width:450px;
+    height:350px;
+    padding: 40px;
+    gap: 5px;
+}
+.cifras img{
+    width: 100%;
+}
+
+.cifras p{
+    font-weight: 600;
+    font-size: 35px;
+}
+.cifras h1{
+    font-size: 90px;
+} 
+
+.awards-container{
+    margin: 5rem 0 8rem 0;
+}
+
+.title-awards{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0 5rem 5rem 10rem;
+    
+}
+
+.content-left{
+    display:flex;
+    align-items: left;
+    justify-content: left;
+    flex-direction: row;
+}
+
+.number{
+    height:150px;
+    width: 150px;
+    float:left;
+}
+
+.text-content-left{
+    margin-top: 6rem;
+    line-height: 1.2;
+}
+
+.text-content-left p{
+    margin-left: 2rem;
+    font-size: 40px;
+    letter-spacing: 3px;
+    width:100%;
+}
+
+.text-content-left h1{
+    margin-left: 1rem;
+    font-size: 65px;
+}
+
+.text-content-right p{
+    margin-top: 6rem;
+    font-size: 25px;
+    margin-left: 10rem;
+    width:60%;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+

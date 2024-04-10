@@ -1,0 +1,35 @@
+.popup{
+    position:absolute;
+    left:0;
+    top:0;
+    height: 100%;
+    width:100%;
+    background-color: rgb(14,35,48,0.4);
+    z-index: 30;
+  }
+  
+  .popup-inner{
+    position:absolute;
+    left:20%;
+    top:20%;
+    height: 60%;
+    width:60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--deep-marine);
+    border-radius: 15px;
+    opacity: 1;
+    z-index:40;
+  }
+  .close-btn{
+    position: absolute;
+    top:16px;
+    right:16px;
+    font-size: 1.5rem;
+    height:2rem;
+    width:2rem;
+    font-weight: bold;
+    border-radius: 50%;
+    background-color: white;
+  }

@@ -1,0 +1,56 @@
+.carousel{
+    max-width:1080px;
+    margin-inline:auto;
+ }
+ .box{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .prize-pic{
+    display: block;
+    height:300px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid var(--gris-claro);
+    border-radius:50%;
+ }
+ 
+ .prize-pic img{
+    height:100%;
+    width: 100%;
+    object-fit: cover;
+ }
+
+ .info{
+    margin-top: 2rem !important;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+
+ }
+ 
+ .info h2{
+     font-size: 28px;
+     text-align: center;
+ }
+ 
+ .info h3{
+     font-weight: 300;
+     font-size: 20px;
+ }
+ 
+ .slick-dots li.slick-active button:before{
+     color:var(--menta) !important;
+ }
+ 
+ .slick-dots li button:before{
+     color:white !important;
+     top:2rem !important;
+ }
+ 
+ 
+ 

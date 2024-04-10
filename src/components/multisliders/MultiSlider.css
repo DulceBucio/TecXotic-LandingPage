@@ -1,0 +1,85 @@
+.carousel{
+    width: 100vw;
+    margin-inline:auto;
+ }
+ .box{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .profile-pic{
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+ }
+ 
+ .info{
+     margin-left: auto;
+     margin-right: auto;
+     text-align: center;
+     justify-content: center;
+ }
+ 
+ .info h2{
+     font-size: 28px;
+     text-align: center;
+ }
+ 
+ .info h3{
+     font-weight: 300;
+     font-size: 20px;
+ }
+ 
+ .slick-dots li.slick-active button:before{
+     color:var(--menta) !important;
+ }
+ 
+ .slick-dots li button:before{
+     color:white !important;
+     top:2rem !important;
+ }
+ 
+ 
+ .carousel{
+    width: 100vw;
+    margin-inline:auto;
+ }
+ .box{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .profile-pic{
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+ }
+ 
+ .info{
+     margin-left: auto;
+     margin-right: auto;
+     text-align: center;
+     justify-content: center;
+ }
+ 
+ .info h2{
+     font-size: 28px;
+     text-align: center;
+ }
+ 
+ .info h3{
+     font-weight: 300;
+     font-size: 20px;
+ }
+ 
+ .slick-dots li.slick-active button:before{
+     color:var(--menta) !important;
+ }
+ 
+ .slick-dots li button:before{
+     color:white !important;
+     top:2rem !important;
+ }
+ 
+ 
+ 

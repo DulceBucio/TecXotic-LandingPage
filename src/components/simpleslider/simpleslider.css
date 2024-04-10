@@ -1,0 +1,139 @@
+ul, li{
+    list-style: none;
+    white-space: nowrap;
+  }
+  
+  li{
+    display: inline;
+  }
+  
+  .main-container{
+    width: 100vw;
+    height: 800px;
+    margin: 0 auto;
+    color:white;
+  }
+  
+  /* Slider container */
+  .slider-container {
+    position: relative;
+    height: 100%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+  }
+  
+  /* dots carrusel */
+  .dots-container {
+    position:absolute;
+    top:92%;
+    display: flex;
+    justify-content: center;
+    z-index:20;
+  }
+  
+  .dot-container-item{
+    cursor: pointer;
+    margin: 0px 10px;
+  }
+  
+  .btn-more{
+    position:absolute;
+    top:30%;
+    right:25%;
+    height: 4%;
+    width:4%;
+    background-color: transparent;
+  }
+  
+  input[type="radio"] {
+    /* Add if not using autoprefixer */
+    -webkit-appearance: none;
+    /* Remove most all native input styles */
+    appearance: none;
+    margin: 0;
+    font: inherit;
+    background-color: rgba(255,255,255,0.5);
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    transform: translateY(-0.075em);
+  }
+  
+  input[type="radio"]::before {
+    content: "";
+    width: 0.5em;
+    height: 0.5em;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: 0.5ms transform ease-in-out;
+    /* Windows High Contrast Mode */
+  }
+  
+  input[type="radio"]:checked::before {
+    transform: scale(1);
+  }
+  
+  input[type="radio"]:focus {
+    background-color: white;
+    outline: 2px solid white;
+    outline-offset: max(2px, 0.4em);
+  }
+  
+  .slide-image img{
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .rov-pic{
+    position:absolute;
+    top:50%;
+    height: 200px;
+    width:200px;
+  }
+  
+  .container{
+    position: relative;
+    text-align: center;
+  }
+  
+  .slide-tile h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    font-size: 10rem !important;
+  }
+  
+  /* Arrows */
+  .leftArrow {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 5%;
+    height: 4%;
+    width: 4%;
+    cursor: pointer;
+    z-index: 20;
+  }
+  
+  .rightArrow {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 5%;
+    height: 4%;
+    width: 4%;
+    cursor: pointer;
+    z-index: 20;
+  }
+  
+  .container-images {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  

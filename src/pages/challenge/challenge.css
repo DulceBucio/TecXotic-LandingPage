@@ -157,12 +157,7 @@
 
 .misiontasks {
   padding-top: 85px;
-  /*background: #113544;
-  background-image: url('../../images/WaveDivision.png');
-  background-size: 1400px 1300px;
-  background-position: center;
-  background-repeat: no-repeat;*/
-} 
+}
 
 .tasktxt {
   color: white;
@@ -257,55 +252,55 @@
 }
 
 .infodatos {
-    color: white;
-    font-size: 1.2rem;
-    justify-content: center;
-    display: flex;
+  color: white;
+  font-size: 1.2rem;
+  justify-content: center;
+  display: flex;
 }
 
 .inforight {
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
-.info1{
-    display: flex;
+.info1 {
+  display: flex;
 }
 
-.infoimg1{
-    width: 100px;
-    height: 100px;
+.infoimg1 {
+  width: 100px;
+  height: 100px;
 }
 
-.infotxt1{
-    font-size: 0.75rem;
-    padding-top: 50px;
+.infotxt1 {
+  font-size: 0.75rem;
+  padding-top: 50px;
 }
 
-.info2{
-    display: flex;
+.info2 {
+  display: flex;
 }
 
-.infoimg2{
-    width: 100px;
-    height: 100px;
+.infoimg2 {
+  width: 100px;
+  height: 100px;
 }
 
-.infotxt2{
-    font-size: 0.75rem;
-    padding-top:50px;
+.infotxt2 {
+  font-size: 0.75rem;
+  padding-top: 50px;
 }
 
-.info3{
-    display: flex;
+.info3 {
+  display: flex;
 }
 
-.infoimg3{
-    width: 100px;
-    height: 100px;
+.infoimg3 {
+  width: 100px;
+  height: 100px;
 }
 
-.infotxt3{
-    font-size: 0.75rem;
-    padding-top: 40px;
+.infotxt3 {
+  font-size: 0.75rem;
+  padding-top: 40px;
 }

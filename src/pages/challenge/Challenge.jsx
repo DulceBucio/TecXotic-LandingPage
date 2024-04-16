@@ -145,7 +145,7 @@ const Challenge = () => {
           <div className="inforight">
             <div className="info1">
               <div className="infoimg1">
-                <img className="info1" src={info1}></img>
+                <img className="img1" src={info1}></img>
               </div>
               <div className="infotxt1">
                 <p>
@@ -160,12 +160,12 @@ const Challenge = () => {
                 </p>
               </div>
               <div className="infoimg2">
-                <img className="info2" src={info2}></img>
+                <img className="img2" src={info2}></img>
               </div>
             </div>
             <div className="info3">
               <div className="infoimg3">
-                <img className="info3" src={info3}></img>
+                <img className="img3" src={info3}></img>
               </div>
               <div className="infotxt3">
                 <p>

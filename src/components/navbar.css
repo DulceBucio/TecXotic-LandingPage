@@ -47,13 +47,3 @@ nav {
   border: none;
   color: var(--azul-oscuro);
 }
-
-/*.footer{
-  position: fixed;
-  bottom: 0; 
-  width: 100%;
-  margin-left:1rem;
-  margin-right: 1rem;
-  display: flex;
-  flex-direction: row;
-}*/

@@ -3,13 +3,12 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
   min-height: 100vh;
   margin: 0 auto;
   background: linear-gradient(
     90deg,
-    rgb(5, 241, 215) 0%,
-    rgba(0, 157, 140) 35%,
+    rgb(0, 157, 140) 0%,
+    rgba(0, 155, 155) 35%,
     rgba(26, 99, 109) 100%
   );
   min-height: 100vh;
@@ -18,6 +17,7 @@
 .challenge {
   display: flex;
   flex-direction: row;
+  padding: 6rem;
 }
 
 .left-Container,
@@ -68,11 +68,14 @@
   padding-top: 500px;
   width: 500px;
   padding-left: 5000;
+  animation:scroll 7s linear infinite
 }
 
 .mision {
   display: flex;
   padding-top: 50px;
+  padding-left: 6rem;
+  padding-right: 6rem;
 }
 
 .left-ContainerM,
@@ -113,6 +116,8 @@
 .vision {
   display: flex;
   padding-top: 50px;
+  padding-left: 6rem;
+  padding-right: 6rem;
 }
 
 .left-ContainerV,
@@ -149,7 +154,7 @@
 
 .right-ContainerV {
   padding-top: 60px;
-  padding-left: 40px;
+  padding-right: 6rem;
   color: white;
   font-size: 1.2rem;
   justify-content: center;
@@ -157,6 +162,11 @@
 
 .misiontasks {
   padding-top: 85px;
+  background-image: url("../../images/WaveDivision.png");
+  background-size: cover;
+  width: 100%;
+  align-items: center;
+  padding: 10rem;
 }
 
 .tasktxt {
@@ -169,6 +179,7 @@
   display: flex;
   flex-direction: row;
   gap: 20px;
+  padding: 6rem;
 }
 
 .task1 {
@@ -220,7 +231,9 @@
 }
 
 .info {
-  padding-top: 200px;
+  padding-top: 100px;
+  background-image: url("../../images/colorfondo.png");
+  background-size: cover;
 }
 
 .infotitle {
@@ -243,6 +256,8 @@
   padding-top: 25px;
   display: flex;
   flex-direction: row;
+  padding-left: 6rem;
+  padding-right: 6rem;
 }
 
 .infotxt {
@@ -303,4 +318,32 @@
 .infotxt3 {
   font-size: 0.75rem;
   padding-top: 40px;
+}
+
+.footer {
+  left: 0;
+  width: 100%;
+  background-color: #163654;
+}
+
+.footercont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+  padding: 20px;
+}
+
+.footertext {
+  font-size: 1.2rem;
+}
+
+.logoarroba {
+  width: 40px;
+  height: 40px;
+}
+
+.logoinsta {
+  width: 40px;
+  height: 40px;
 }

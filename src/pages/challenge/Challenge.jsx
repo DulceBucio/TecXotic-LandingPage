@@ -11,6 +11,9 @@ import task4 from "../../images/task4.jpg";
 import info1 from "../../images/challenge2.png";
 import info2 from "../../images/challenge5.png";
 import info3 from "../../images/challenge7.png";
+import Logo from "../../images/logo_completo.png";
+import logoarroba from "../../images/arrobablanco.png";
+import logoinsta from "../../images/instablanco.png";
 
 const Challenge = () => {
   return (
@@ -35,9 +38,11 @@ const Challenge = () => {
 
           <button className="learnbottom">Learn More</button>
         </div>
+
         <div className="peces-right">
           <img className="peces2" src={peces2}></img>
         </div>
+
       </div>
 
       <div className="mision">
@@ -65,9 +70,11 @@ const Challenge = () => {
             <img className="visionimg" src={visionimg}></img>
           </div>
         </div>
+        
         <div className="peces-left">
           <img className="peces1" src={peces1}></img>
         </div>
+        
         <div className="right-ContainerV">
           <h2>
             Vision
@@ -177,7 +184,21 @@ const Challenge = () => {
         </div>
       </div>
 
+      <div className="footer">
+        <div className="footercont">
+          <div className="footerlogo">
+            <img className="logo" src={Logo}></img>
+          </div>
+          <div className="footertext">
+            <p>Exploring the oceans through engineering</p>
+          </div>
+          <img className="logoarroba" src={logoarroba}></img>
+          <img className="logoinsta" src={logoinsta}></img>
+        </div>
+      </div>
+
     </main>
+    
   );
 };
 

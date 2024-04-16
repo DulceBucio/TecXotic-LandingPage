@@ -3,7 +3,6 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
   min-height: 100vh;
   margin: 0 auto;
   background: linear-gradient(
@@ -116,12 +115,15 @@
   padding-left: 700px;
   font-size: 60px;
   position: relative;
+  padding-top: 6rem;
 }
 
 .textC{
   position: relative;
   font-size: 1.5rem;
   padding-right: 850px;
+  padding-left: 6rem;
+  
 }
 
 .instalogo{
@@ -132,4 +134,32 @@
 .arrobalogo{
   width: 70px;
   height: 70px;
+}
+
+.footer {
+  left: 0;
+  width: 100%;
+  background-color: #163654;
+}
+
+.footercont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+  padding: 20px;
+}
+
+.footertext {
+  font-size: 1.2rem;
+}
+
+.logoarroba {
+  width: 40px;
+  height: 40px;
+}
+
+.logoinsta {
+  width: 40px;
+  height: 40px;
 }

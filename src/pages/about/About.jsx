@@ -13,7 +13,7 @@ const About = () => {
     <main className='about-container'>
       <div className='intro_container'>
       <div className='quote_container'>
-        <h1>Who <font color="#05F1D7">cares</font>, always <font color="#05F1D7">wins</font></h1>
+        <h1>Who <font color="#48D5D6">cares</font>, always <font color="#48D5D6">wins</font></h1>
       </div>
       <div className= "container_bubbles">
           <div className='drop'>
@@ -51,7 +51,7 @@ const About = () => {
           </div>
         </div>
         <div className='historia'>
-          <h2>Since <font color="#05F1D7">2015</font>...</h2>
+          <h2>Since <font color="#48D5D6">2015</font>...</h2>
           <p>A group of mainly mechatronics, computer science and industrial engineering 
                 hardworking students at Tecnológico de Monterrey Campus Cuernavaca founded 
                 TecXotic. During their first year, they succeded in builiding a ROV that 
@@ -94,17 +94,17 @@ const About = () => {
             <div className='cifras'>
               <h1>9</h1>
               <img src={waveLine}></img>
-              <p><font color="#05F1D7">years</font> of making an impact</p>
+              <p><font color="#48D5D6">years</font> of making an impact</p>
             </div>
             <div className='cifras'>
               <h1>6</h1>
               <img src={waveLine}></img>
-              <p><font color="#05F1D7">times</font> being an international winner</p>
+              <p><font color="#48D5D6">times</font> being an international winner</p>
             </div>
             <div className='cifras'>
               <h1>20</h1>
               <img src={waveLine}></img>
-              <p><font color="#05F1D7">workshops</font> of STEM for young minds</p>
+              <p><font color="#48D5D6">workshops</font> of STEM for young minds</p>
             </div>
           </div>
         </div>

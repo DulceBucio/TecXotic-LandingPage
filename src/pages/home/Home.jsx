@@ -11,7 +11,11 @@ import './home.css'
         {() => (
           <div className='container-water'>
                 <div className='container-water-text'>
-                    <h1 >Powering imagination through the seas</h1>
+                    <div className='quote-home'>
+                      <h2><font color="40FFDD">Powering imagination </font></h2>
+                      <h1>through the seas</h1>
+                      <p>The future of underwater exploration starts here.</p>
+                    </div>
                     <button><Link to="/about-us"><font color ="#0E2430">Read More</font></Link></button>
                 </div>
           </div>

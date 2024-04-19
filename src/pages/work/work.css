@@ -6,11 +6,12 @@ main{
     display:flex;
     flex-direction: column;
     margin-top: 100px;  
-    padding: 5rem 10rem 5rem 10rem;
+    padding: 5rem 10rem 0 10rem;
 }
 
 .intro-content{
     margin-top: 100px;  
+    margin-right: 2rem;
 }
 
 .submarine-img{
@@ -28,14 +29,14 @@ main{
 }
 
 .parrafo1{
-    margin-top: 60px;
+    margin-top: 40px;
     font-size: 25px;
     margin-right: 100px;
     font-weight: 300;
 }
 
 .parrafo2{
-    margin-top: 60px;
+    margin-top: 40px;
     font-size: 25px;
     font-weight: 300;
 }
@@ -47,7 +48,6 @@ main{
     padding-bottom: 100px;
     gap: 40px 60px;
 }
-
 
 .drop{
     position:relative;
@@ -105,7 +105,7 @@ main{
 
 .philosophy-text{
     width:700px;
-    padding: 5rem 0 2rem 0;
+    padding: 1rem 0 1rem 0;
     margin-top: 10rem;
     margin-left: 10rem;
     font-size: 30px;
@@ -140,8 +140,8 @@ main{
 
 .invite-text button{
     font-size: 22px;
-    margin-top: 5rem;
-    width:30%;
+    margin-top: 3rem;
+    width:25%;
     height:50px;
     border-radius: 10px;
     font-weight: bold;

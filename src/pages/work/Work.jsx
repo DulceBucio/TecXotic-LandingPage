@@ -30,8 +30,8 @@ const Work = () => {
       <div className='philosphy-content'>
         <div className='philosophy-text'>
           <p>Since its foundation, TecXotic has embraced a
-            <font color="#05F1D7"> design philosophy</font> that emphasizes<font color="#05F1D7"> safety </font> and a
-            <font color="#05F1D7"> Simple Modular Well-Done (SMW) methodology </font>.
+            <font color="#48D5D6"> design philosophy</font> that emphasizes<font color="#48D5D6"> safety </font> and a
+            <font color="#48D5D6"> Simple Modular Well-Done (SMW) methodology </font>.
           </p>
         </div>
         <div className= "container_bubbles">
@@ -67,7 +67,7 @@ const Work = () => {
       </div>
       <div className='invite-container'>
         <div className='invite-text'>
-          <h1>Join the <font color ="#05F1D7">ROVolution</font>!</h1>
+          <h1>Join the <font color ="#48D5D6">ROVolution</font>!</h1>
           <p>Support from donors like you is critical to develop underwater technology solutions. </p>
           <button><Link to="/donate"><font color="#0E2430"> Donate </font></Link></button>
         </div>

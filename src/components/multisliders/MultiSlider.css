@@ -2,11 +2,13 @@
     width: 100vw;
     margin-inline:auto;
  }
+
  .box{
      display: flex;
      justify-content: center;
      align-items: center;
  }
+
  .profile-pic{
      display: block;
      margin-left: auto;
@@ -71,7 +73,7 @@
      font-weight: 300;
      font-size: 20px;
  }
- 
+
  .slick-dots li.slick-active button:before{
      color:var(--menta) !important;
  }
@@ -80,6 +82,5 @@
      color:white !important;
      top:2rem !important;
  }
- 
  
  

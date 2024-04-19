@@ -19,6 +19,26 @@ export const data = [
         id:4, 
         title: "AXOLOTL",
         description: "The first ROV that we designed and manufactured for our first participation in the MATE ROV Competition.",
+    },
+    {
+        id:5, 
+        title: "ACOATL",
+        description: "The first ROV that we designed and manufactured for our first participation in the MATE ROV Competition.",
+    },
+    {
+        id:6, 
+        title: "KOLOP",
+        description: "The first ROV that we designed and manufactured for our first participation in the MATE ROV Competition.",
+    },
+    {
+        id:7, 
+        title: "ATZIN",
+        description: "The first ROV that we designed and manufactured for our first participation in the MATE ROV Competition.",
+    },
+    {
+        id:8, 
+        title: "ATZIN 2.0",
+        description: "The first ROV that we designed and manufactured for our first participation in the MATE ROV Competition.",
     }
 
 ];

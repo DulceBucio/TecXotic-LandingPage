@@ -12,7 +12,7 @@
 .forms{
     border-radius: 20px;
     background-color: var(--gris-claro);
-    height: 700px;
+    height: 600px;
     width: 500px;
 }
 .invite-text{
@@ -22,12 +22,13 @@
     justify-content: left;
     width:600px;
 }
+
 .invite-text h1{
     font-size: 90px;
     line-height:1.2;
 }
 .invite-text p{
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 2rem;
     font-weight: 300;
 }

@@ -20,11 +20,15 @@ const Contact = () => {
       <div className="containerC">
         <div className="drop">
           <img className="instalogo" src={insta}></img>
-          <p>tecxotic_</p>
+          <p>
+            <a href="https://www.instagram.com/tecxotic_?igsh=bDc2bmQ5bHFmMG9l" target="_blank">tecxotic_</a>
+          </p>
         </div>
         <div className="drop">
           <img className="arrobalogo" src={arroba}></img>
-          <p>tecxotic21@gmail.com</p>
+          <p>
+            <a href= "mailto:tecxotic21@gmail.com">tecxotic21@gmail.com</a>
+          </p>
         </div>
         <div></div>
       </div>

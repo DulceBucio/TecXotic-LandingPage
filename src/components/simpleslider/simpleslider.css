@@ -1,12 +1,4 @@
-ul, li{
-    list-style: none;
-    white-space: nowrap;
-  }
-  
-  li{
-    display: inline;
-  }
-  
+
   .main-container{
     width: 100vw;
     height: 800px;
@@ -99,14 +91,9 @@ ul, li{
     position: relative;
     text-align: center;
   }
+
   
-  .slide-tile h1{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    z-index: 1;
-    font-size: 10rem !important;
-  }
+  
   
   /* Arrows */
   .leftArrow {

@@ -1,135 +1,82 @@
-.mainc {
+.mainc{
+    padding: 5rem;
     display: flex;
-    flex-direction: column;
+    align-content:center;
     justify-content: space-between;
-    align-items: center;
-    padding: 6rem;
-    min-height: 100vh;
-    margin: 0 auto;
-    background: linear-gradient(
-      90deg,
-      rgb(0, 157, 140) 0%,
-      rgba(0, 155, 155) 35%,
-      rgba(26, 99, 109) 100%
-    );
-    min-height: 100vh;
-    background-image: url("../../imagenes/wave_mask.png");
-    background-position: right top;
-    background-repeat: no-repeat;
-   
-  }
-  
-  *
-  {
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-  }
-  
-  .containerC{
-    position: relative;
-    display:flex;
-    justify-content: center;
+}
+.contact{
+    display: flex;
     flex-direction: row;
-    padding: 50px 0;
-    gap: 100px;
-  }
-  
-  .containerC .drop{
-    position: relative;
-    width: 200px;
-    height: 200px;
-    box-shadow: inset 20px 20px 20px rgba(0,0,0,0.5),
-    25px 35px 20px rgba(0,0,0,0.5),
-    inset -20px -20px 25px rgba(255, 255, 255, 0.9);
-    transition:0.5s ease-in-out;
+    padding: 5rem;
+    max-width: 100%;
+}
+
+.contact-col-left h3{
+    font-size: 55px;
+    margin-bottom: 1rem;
+    font-weight: 800;
+}
+
+.contact-col-left p{
+    max-width: 425px;
+    font-size: 18px;
+    list-style-type: 0.3;
+}
+.contact-col-left{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .containerC .drop:nth-child(1){
-    border-radius: 61% 39%  52% 48% / 44% 59% 41% 56%;
-  }
-  
-  .containerC .drop:nth-child(2){
-    border-radius: 35% 65%  31% 69%/ 57% 59% 41% 43%;
-  }
-  
-  .containerC .drop:hover{
-    border-radius: 50%;
-  }
-  
-  .containerC::before{
-    content: '';
-    position: absolute;
-    top: 50px;
-    left: 85px;
-    width: 35px;
-    height: 35px;
-    background: #ffff;
-    border-radius: 50%;
-    opacity:0.9;
-  }
-  
-  .containerC::after{
-    content: '';
-    position: absolute;
-    top: 90px;
-    left: 110px;
-    width: 15px;
-    height: 15px;
-    background: #ffff;
-    border-radius: 50%;
-    opacity:0.9;
-  }
-  
-  .containerC .drop .content{
-    position: relative;
+    width:50%;
+}
+.contact-col-left ul li{
     display: flex;
-    justify-content: center;
     align-items: center;
+    margin: 20px 0;
+}
+
+.contact-col-left ul li img{
+    width:35px;
+    margin-right: 10px;
+}
+
+.contact-col-right form input, .contact-col-right form textarea{
+    width: 100%;
+    background: rgba(255,255,255,0.5);
+    border-radius: 5px;
+    outline: 0;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    font-size: 15px;
+    padding: 1rem;
+    color: var(--deep-marine);
+    font-family: Arial, Helvetica, sans-serif;
+    resize: none;
+}
+.contact-col-right label{
+    font-size: 20px;
+}
+.btn-submitt{
+    width:20%;
+    height:45px;
+    margin-top: 1rem;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 15px;
+    color: var(--deep-marine);
+    background-color: #7BD6CC;
+}
+
+.contact-col-right{
+    display: flex;
     flex-direction: column;
-    text-align: center;
-    padding: 40px;
-    gap: 15px;
-  }
-  
-  .containerC .drop .content{
-    position: relative;
-    width: 80px;
-    height: 80px;
-    background: #eff0f4;
-    border-radius: 50%;
-    box-shadow: inset 2px 5px 10px rgba(0,0,0,0.1);
-    inset: -2px -5px 10px rgba(255,255,255,1),
-    15px 15px 10px rgba(0,0,0,0.5),
-    15px 10px 15px rgba(0,0,0,0.25);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .titleC {
-    padding-left: 700px;
-    font-size: 60px;
-    position: relative;
-  }
-  
-  .textC{
-    position: relative;
-    font-size: 1.5rem;
-    padding-right: 850px;
-  }
-  
-  .instalogo{
-    width: 70px;
-    height: 70px;
-  }
-  
-  .arrobalogo{
-    width: 70px;
-    height: 70px;
-  }
+    width:50%;
+
+}
+.contact-col-right span{
+    display: block;
+    margin: 20px 0;
+}
+
+.contact-col-right ::placeholder{
+    color: rgba(97,110,110,0.7);
+    font-family: Arial, Helvetica, sans-serif;
+}

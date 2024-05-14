@@ -5,8 +5,6 @@ import Ricardo from '../../imagenes/submarine_ricardo.png'
 import Atoany from '../../imagenes/submarine_atoanny.png'
 import Dulce from '../../imagenes/submarine_dulce.png'
 import Leslie from '../../imagenes/submarine_leslie.png'
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
 const MultiSlider = () => {
@@ -19,7 +17,7 @@ const MultiSlider = () => {
         initialSlide: 0,
       };
       return (
-        <>
+        <div className='carousel-container'>
           <div className='carousel'>
             <Slider {...settings}>
               <div className='box'>
@@ -69,7 +67,7 @@ const MultiSlider = () => {
               </div>
             </Slider>
           </div>
-        </>
+        </div>
   )
 }
 

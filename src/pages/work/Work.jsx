@@ -3,6 +3,7 @@ import Submarine from '../../imagenes/submarine.png'
 import SimpleSlider from '../../components/simpleslider/SimpleSlider'
 import Sponsor from '../../imagenes/sponsor.jpg'
 import {Link} from 'react-router-dom'
+import Footer from '../../components/footer/Footer'
 
 const Work = () => {
   return (
@@ -69,9 +70,12 @@ const Work = () => {
         <div className='invite-text'>
           <h1>Join the <font color ="#48D5D6">ROVolution</font>!</h1>
           <p>Support from donors like you is critical to develop underwater technology solutions. </p>
-          <button><Link to="/donate"><font color="#0E2430"> Donate </font></Link></button>
+          <button><Link to="/contact-us"><font color="#0E2430"> Contact us </font></Link></button>
         </div>
         <img src={Sponsor}></img>
+      </div>
+      <div>
+        <Footer />
       </div>
     </main>
   )

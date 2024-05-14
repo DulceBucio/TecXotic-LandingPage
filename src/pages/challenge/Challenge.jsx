@@ -11,9 +11,7 @@ import task4 from "../../imagenes/task4.jpg";
 import info1 from "../../imagenes/challenge2.png";
 import info2 from "../../imagenes/challenge5.png";
 import info3 from "../../imagenes/challenge7.png";
-import Logo from "../../imagenes/logo_completo.png";
-import logoarroba from "../../imagenes/arrobablanco.png";
-import logoinsta from "../../imagenes/instablanco.png";
+import Footer from '../../components/footer/Footer'
 
 const Challenge = () => {
   return (
@@ -36,7 +34,7 @@ const Challenge = () => {
             engineering, electronics, programming and teamwork.
           </p>
 
-          <a href="https://materovcompetition.org/"><button className="learnbottom">Learn More</button></a>
+          <a href="https://materovcompetition.org/" target="_blank"><button className="learnbottom">Learn More</button></a>
         </div>
 
         <div className="peces-right">
@@ -89,50 +87,34 @@ const Challenge = () => {
       <div className="misiontasks">
         <div className="tasktxt">
           <h1>
-            2024 MISSION <span class="color">TASKS</span>
+            <font color="white">2024 MISSION </font>TASKS
           </h1>
         </div>
         <div className="imgstask">
           <div className="task1">
-            <div className="imagen-task1">
-              <img  src={task1}></img>
-            </div>
-            <div className="task1txt">
+            <img src={task1}></img>
               <p>
-                SMART cables for ocean observing
+                OOI: Coast Pioneer Array
               </p>
-            </div>
           </div>
           <div className="task2">
-            <div className="imagen-task2">
-              <img  src={task2}></img>
-            </div>
-            <div className="task2txt">
+            <img  src={task2}></img>
               <p>
                 SMART cables for ocean observing
               </p>
-            </div>
           </div>
           <div className="task3">
-            <div className="imagen-task3">
-              <img src={task3}></img>
-            </div>
-            <div className="task3txt">
-              <p>From the Red Sea to Tennessee</p>
-            </div>
+            <img src={task3}></img>
+            <p>From the Red Sea to Tennessee</p>
           </div>
           <div className="task4">
-            <div className="imagen-task3">
-              <img src={task4}></img>
-            </div>
-            <div className="task4txt">
-              <p>From the Red Sea to Tennessee</p>
-            </div>
+            <img src={task4}></img>
+            <p>MATE floats!</p>
           </div>
         </div>
       </div>
 
-      <div className="info">
+      <div className="info-cierre">
         <div className="infotitle">
           <h1>
           The ocean we <span class="color">need</span> <br></br>
@@ -161,13 +143,13 @@ const Challenge = () => {
               </div>
             </div>
             <div className="info2">
+              <div className="infoimg2">
+                  <img className="img2" src={info2}></img>
+                </div>
               <div className="infotxt2">
                 <p>
-                  Unlock ocean-based solutions to climate changey
+                  Unlock ocean-based solutions to climate change
                 </p>
-              </div>
-              <div className="infoimg2">
-                <img className="img2" src={info2}></img>
               </div>
             </div>
             <div className="info3">
@@ -183,20 +165,9 @@ const Challenge = () => {
           </div>
         </div>
       </div>
-
-      <div className="footer">
-        <div className="footercont">
-          <div className="footerlogo">
-            <img className="logo" src={Logo}></img>
-          </div>
-          <div className="footertext">
-            <p>Exploring the oceans through engineering</p>
-          </div>
-          <img className="logoarroba" src={logoarroba}></img>
-          <img className="logoinsta" src={logoinsta}></img>
-        </div>
+      <div>
+        <Footer />
       </div>
-
     </main>
     
   );

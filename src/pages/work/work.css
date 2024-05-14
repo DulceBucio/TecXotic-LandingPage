@@ -117,7 +117,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10rem;
+    padding: 8rem 10rem 15rem 10rem;
     flex-direction: row;
     gap:5rem;
 }
@@ -141,9 +141,9 @@ main{
 .invite-text button{
     font-size: 22px;
     margin-top: 3rem;
-    width:25%;
-    height:50px;
-    border-radius: 10px;
+    width:30%;
+    height:60px;
+    border-radius: 12px;
     font-weight: bold;
     background-color: var(--menta);
 }

@@ -4,7 +4,6 @@ import About from './pages/about/About'
 import Challenge from './pages/challenge/Challenge'
 import Work from './pages/work/Work'
 import Contact from './pages/contact/Contact'
-import Donate from './pages/donate/Donate'
 import Home from './pages/home/Home'
 
 const App = () => {
@@ -17,7 +16,6 @@ const App = () => {
             <Route path= "/challenge" element={<Challenge />}/>
             <Route path= "/our-work" element={<Work />}/>
             <Route path= "/contact-us" element={<Contact />}/>
-            <Route path= "/donate" element={<Donate />}/>
         </Routes>
       </BrowserRouter>
   )

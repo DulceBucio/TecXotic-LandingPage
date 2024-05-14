@@ -23,7 +23,6 @@ const Navbar = () => {
                         <Link to ="/contact-us">Contact us</Link>
                     </li>
                 </ul>
-                <Link to="/donate"><button className="donate_btn">Donate</button></Link>
         </div>  
     </nav>
   )

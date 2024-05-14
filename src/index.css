@@ -44,6 +44,7 @@ body{
   width: 60%;
   height: 120%;
   border-radius: 50%;
+  top:-20%;
   right: -5%;
   background: linear-gradient(80deg,#1A636D,#296C8D);
   filter:blur(200px);

@@ -186,6 +186,7 @@
 
 .fish img{
     z-index:3;
+    
 }
 
 .fish-right {
@@ -307,7 +308,7 @@
 } 
 
 .awards-container{
-    margin: 5rem 0 8rem 0;
+    padding: 5rem 0 15rem 0;
 }
 
 .title-awards{

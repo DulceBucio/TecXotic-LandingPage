@@ -3,21 +3,16 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 6rem;
     min-height: 100vh;
     margin: 0 auto;
-    background: linear-gradient(
-      90deg,
-      rgb(5, 241, 215) 0%,
-      rgba(0, 157, 140) 35%,
-      rgba(26, 99, 109) 100%
-    );
     min-height: 100vh;
   }
   
   .challenge {
     display: flex;
     flex-direction: row;
+    padding: 6rem;
+    
   }
   
   .left-Container,
@@ -27,6 +22,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    z-index:2;
   }
   
   .left-Container {
@@ -55,24 +51,67 @@
   }
   
   .learnbottom {
-    color: white;
-    background: #30cfb6;
+    color: var(--deep-marine);
+    background: #48D5D6;
     padding: 10px 20px;
     border-radius: 5px;
     width: 150px;
     height: 40px;
-    font-size: 15;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 2rem;
   }
   
   .peces-right {
-    padding-top: 500px;
-    width: 500px;
-    padding-left: 5000;
+    position: absolute;
+    top:20%;
+    right:0;
+    animation:peces-right 7s linear infinite;
   }
-  
+
+  .peces-right img{
+    width: 250px;
+    z-index:1;
+  }
+
+@keyframes peces-right {
+    0%{
+        transform: translateX(0);
+        opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 1;
+    }
+    100%{
+        transform: translateX(-2100px);
+        opacity: 1;
+    }
+}
+
+@keyframes peces-left {
+    0%{
+        transform: translateX(0);
+        opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 1;
+    }
+    100%{
+        transform: translateX(2100px);
+        opacity: 1;
+    }
+}
+
   .mision {
     display: flex;
-    padding-top: 50px;
+    padding: 0 6rem 0 6rem;
+    z-index: 2;
   }
   
   .left-ContainerM,
@@ -110,13 +149,11 @@
     justify-content: center;
   }
   
-  .task1 img, .task2 img, .task3 img, .task4 img, .task5 img{
-    border-radius: 5px solid white;
-    border: 50%;
-  }
   .vision {
     display: flex;
     padding-top: 50px;
+    padding-left: 6rem;
+    padding-right: 6rem;
   }
   
   .left-ContainerV,
@@ -124,6 +161,7 @@
     width: 50%;
     height: 100%;
     display: flex;
+    z-index: 2;
     flex-direction: column;
     justify-content: center;
   }
@@ -148,12 +186,20 @@
   }
   
   .peces-left {
-    padding-top: 200px;
+    position: absolute;
+    padding-top: 12rem;
+    left:0;
+    z-index: 1;
+    animation: fish-left 7s linear infinite;
   }
-  
+
+  .peces-left img{
+    width: 150px;
+  }
+
   .right-ContainerV {
     padding-top: 60px;
-    padding-left: 40px;
+    padding-right: 6rem;
     color: white;
     font-size: 1.2rem;
     justify-content: center;
@@ -161,78 +207,103 @@
   
   .misiontasks {
     padding-top: 85px;
+    z-index: 2;
+    background-image: url("../../imagenes/WaveDivision.png");
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 12rem 0 10rem 0;
+    
   }
   
   .tasktxt {
-    color: white;
+    color: var(--deep-marine);
     text-align: center;
   }
   
-  .imgstask {
-    padding-top: 50px;
+  .tasktxt h1{
+    margin-top: 2rem;
+  }
+
+  .imgstask{
     display: flex;
-    flex-direction: row;
-    gap: 20px;
-    
+    color:white;
+    justify-content: center;
+    width:25%;
   }
   
-  .task1 {
-    width: 15em;
-    height: 15em;
-    
-  }
-  
-  .task1txt {
-    text-align: center;
-    font-size: 1.2rem;
-  }
-  
-  .task2 {
-    width: 15em;
-    height: 15em;
-
-  }
-  
-  .task2txt {
-    text-align: center;
-    font-size: 1.2rem;
-  }
-  
-  .task3 {
-    width: 15em;
-    height: 15em;
-  }
-  
-  .task3txt {
-    text-align: center;
-    font-size: 1.2rem;
-  }
-  
-  .task4 {
-    width: 15em;
-    height: 15em;
-  }
-  
-  .task1 img, .task2 img, .task3 img, .task4 img {
+  .task1 img {
+    width: 16em;
+    height: 16em;
     border-radius: 50%;
-    border: 5px solid;
-  }
-
-  .task4txt {
-    text-align: center;
-    font-size: 1.2rem;
+    border: 5px solid white;
   }
   
-  .info {
-    padding-top: 200px;
+  .task1 p{
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+
   }
+  
+  .task1, .task2, .task3, .task4{
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+    text-align:center;
+    align-items: center;
+  }
+
+  .task2 img{
+    width: 16em;
+    height: 16em;
+    border-radius: 50%;
+    border: 5px solid  white;
+  }
+  
+  .task2 p {
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  .task3 img{
+    width: 16em;
+    height: 16em;
+    border-radius: 50%;
+    border: 5px solid white;
+  }
+  
+  .task3 p {
+    padding-top: 1rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+  
+  .task4 img {
+    width: 16em;
+    height: 16em;
+    border-radius: 50%;
+    border: 5px solid white;
+  }
+  .task4 p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-top: 1rem;
+  }
+  
   
   .infotitle {
+    padding-top: 100px;
     text-align: center;
+    font-style: italic;
   }
   
   .color {
-    color: #05f1d7;
+    color: #48D5D6;
   }
   
   .infodatos,
@@ -247,11 +318,13 @@
     padding-top: 25px;
     display: flex;
     flex-direction: row;
+    gap:4rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
   }
   
   .infotxt {
-    font-size: 1.2rem;
-    padding-right: 90px;
+    font-size: 1.5rem;
     padding-top: 60px;
   }
   
@@ -260,10 +333,13 @@
     font-size: 1.2rem;
     justify-content: center;
     display: flex;
+    padding-bottom: 10rem;
   }
   
   .inforight {
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
     align-items: center;
   }
   
@@ -276,11 +352,6 @@
     height: 100px;
   }
   
-  .infotxt1 {
-    font-size: 0.75rem;
-    padding-top: 50px;
-  }
-  
   .info2 {
     display: flex;
   }
@@ -288,11 +359,6 @@
   .infoimg2 {
     width: 100px;
     height: 100px;
-  }
-  
-  .infotxt2 {
-    font-size: 0.75rem;
-    padding-top: 50px;
   }
   
   .info3 {
@@ -303,36 +369,16 @@
     width: 100px;
     height: 100px;
   }
-  
-  .infotxt3 {
-    font-size: 0.75rem;
-    padding-top: 40px;
+    
+  .img1,.img2,.img3{
+    width: 120px;
+    height: 120px;
   }
 
-  .footer {
-    left: 0;
-    width: 100%;
-    background-color: #163654;
+  .infotxt1, .infotxt2, .infotxt3{
+    font-size: 18px;
+    padding-top: 7%;
+    padding-left: 2.5rem;
   }
   
-  .footercont {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 50px;
-    padding: 20px;
-  }
-  
-  .footertext {
-    font-size: 1.2rem;
-  }
-  
-  .logoarroba {
-    width: 40px;
-    height: 40px;
-  }
-  
-  .logoinsta {
-    width: 40px;
-    height: 40px;
-  }
+ 

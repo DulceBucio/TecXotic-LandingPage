@@ -10,10 +10,10 @@
   
   .popup-inner{
     position:absolute;
-    left:20%;
-    top:20%;
-    height: 60%;
-    width:60%;
+    left:15%;
+    top:15%;
+    height: 65%;
+    width:65%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,3 +33,92 @@
     border-radius: 50%;
     background-color: white;
   }
+
+  .popup-text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding: 2rem;
+    width:90%;
+  }
+  .popup-text h3{
+    font-size: 2.5rem;
+    font-weight: 400;
+  }
+
+  .popup-text h2{
+    font-size: 2.5rem;
+    letter-spacing:5px;
+  }
+
+  .line{
+    background-color: white;
+    height: 1.5px;
+    opacity: 0.5;
+    width:100%;
+  }
+
+
+  .popup-text p{
+    font-size: 18px;
+    font-weight: 300;
+    text-align: left;
+    font-style: italic;
+    margin-bottom: 1rem;
+  }
+
+  .features-container{
+    margin-top: 1rem;
+  }
+
+ .features-container ul, .features-container li{
+    list-style: disc;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    
+  }
+
+  .bottom-container{
+    position: relative;
+    left:0;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 0.5rem;
+  }
+
+  .price, .date{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .popup-text h4{
+    font-size: 24px;
+    letter-spacing: 1.5px;
+  }
+  .price img, .date img{
+    width: 35px;
+    height:35px;
+    object-fit: contain;
+  }
+
+  .price h4{
+    font-size: 18px;
+    text-align: left;
+    margin-left: 1rem;
+    text-transform: uppercase; 
+  }
+  
+  .date h4{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 1rem;
+  }
+  
+  

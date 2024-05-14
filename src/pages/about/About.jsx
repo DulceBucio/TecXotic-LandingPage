@@ -7,6 +7,7 @@ import TeamSlider from '../../components/multisliders/MultiSlider'
 import MultiSlider2 from '../../components/multisliders/AwardSlider'
 import PecesIzq from '../../imagenes/FishGroup1.png'
 import PecesDer from '../../imagenes/FishGroup2.png'
+import Footer from '../../components/footer/Footer'
 
 const About = () => {
   return (
@@ -126,7 +127,13 @@ const About = () => {
                 design and communication skills.</p>
             </div>
           </div>
-          <MultiSlider2 />
+          <div>
+            <MultiSlider2 />
+          </div>
+        </div>
+        <br></br>
+        <div>
+          <Footer />
         </div>
     </main>
   )

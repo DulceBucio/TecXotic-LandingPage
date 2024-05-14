@@ -59,9 +59,10 @@ const SimpleSlider = () => {
                 })
               }
             </div>
-            <Popup trigger ={buttonPopup}  setTrigger ={setButtonPopup} >
-              <h2>{data[currentIndex].title}</h2>
-            </Popup>  
+            <Popup trigger ={buttonPopup}  setTrigger ={setButtonPopup}
+             title={data[currentIndex].title} description={data[currentIndex].description}
+             year={data[currentIndex].year} feature1={data[currentIndex].feature1} feature2={data[currentIndex].feature2}
+             feature3={data[currentIndex].feature3} feature4={data[currentIndex].feature4} price={data[currentIndex].price}></Popup>  
           </div>
           <div className="dots-container">
               {

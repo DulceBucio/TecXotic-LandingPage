@@ -33,21 +33,3 @@ nav{
 .nav_links a:hover{
     color: var(--menta);
 }
-
-.donate_btn{
-    color:white;
-    background: transparent;
-    cursor: pointer;
-    padding: 0.5rem 1rem;
-    border: solid 2px;
-    border-radius: 6px;
-    font-size: 1.2rem;
-}
-
-.donate_btn:hover{
-    scale:1.05;
-    background: var(--menta);
-    border: none;
-    color:#11474F;
-    font-weight: 600;
-}

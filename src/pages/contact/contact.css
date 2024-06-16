@@ -25,7 +25,7 @@
 .contact-col-left{
     display: flex;
     flex-direction: column;
-    width:50%;
+    width:100%;
 }
 .contact-col-left ul li{
     display: flex;

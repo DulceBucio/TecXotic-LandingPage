@@ -86,6 +86,17 @@ export const data = [
         feature3:"Two 3D printed float containers.",
         feature4:"Slim profile tensor relief system and flexible bands that fix the electronic enclosures in place.",
         price:"3,353.24 (USD)",
+    },
+    {
+        id:9, 
+        title: "TZILACATZIN",
+        year: 2024,
+        description: "This is our ninth year participating in the MATE ROV Competition. Meet our new rov!",
+        feature1: "It has a 3D printed double central claws. ",
+        feature2:"It has a tensor relief that helps the rov move smoothly underwater.",
+        feature3:"The frame and tool deck are made of PolyAl which helps to increase bouyancy. ",
+        feature4:"It has an eight-thruster configuration that offers excellent maneuverability with enhanced displacement and precision for underwater tasks.",
+        price:"4,772.88 (USD)",
     }
 
 ];
